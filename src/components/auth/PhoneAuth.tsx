@@ -38,7 +38,7 @@ const PhoneAuth = ({ onVerified }: PhoneAuthProps) => {
     <Card className="shadow-lg">
       <CardHeader className="text-center">
         <CardTitle className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-          Welcome to SocialHub
+          Welcome to Kisan Network
         </CardTitle>
         <p className="text-gray-600 mt-2">
           {step === 'phone' ? 'Enter your phone number to get started' : 'Enter the verification code'}
